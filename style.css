@@ -1,119 +1,144 @@
 body {
-    font-family: Arial;
-    background-color:lightblue ;
-    padding: 40px 0;
-    
+  font-family: Arial;
+  background-color: lightblue;
+  padding: 40px 0;
+}
+
+main {
+  padding: 15px;
 }
 
 .container {
-
-    width: 960px;
-    margin: 0 auto;
-    background-color: white;
-    box-shadow: 15px 25px 15px;
-    
+  width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 15px 25px 15px;
 }
 
 .cv-link {
-    border: 2px solid cornflowerblue;
-    color: black;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: inline-block;
-    margin-top: 10px;
-    border-radius: 26px;
-    transition: 0.7s;
+  border: 2px solid cornflowerblue;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 26px;
+  transition: 0.7s;
 }
 
 .cv-link:hover {
-    color: white;
-    background-color: cornflowerblue;
-    
+  color: white;
+  background-color: cornflowerblue;
 }
 
 .cv-link:focus {
-    color: white;
-    background-color: cornflowerblue;
- 
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.gamestorm-link {
+  border: 2px solid cornflowerblue;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 26px;
+  transition: 0.7s;
+}
+
+.gamestorm-link:hover {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.gamestorm-link:focus {
+  color: white;
+  background-color: cornflowerblue;
 }
 
 h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 header span {
-    color: grey;
+  color: grey;
 }
 
 img {
-    width: 180px;
-    height: 180px;
+  width: 180px;
+  height: 180px;
 }
 
-section, header {
-    padding: 10px 60px 20px 60px;
-    
+section,
+header {
+  padding: 5px 60px 5px 60px;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 header li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .address-icons {
-    width: 16px;
-    height: 16px;
-    background-color: cornflowerblue;
-    margin-right: 10px;
-    padding: 8px;
-    vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background-color: cornflowerblue;
+  margin-right: 10px;
+  padding: 8px;
+  vertical-align: middle;
 }
 
 .circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .icons {
-    width: 34px;
-    height: 34px;
-    vertical-align: middle;
-    margin-right: 5px;
+  width: 34px;
+  height: 34px;
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
-.hobbies {
-    display:flex;
+.flexy {
+  display: flex;
 }
 
-.hobbies li {
-   width: 33.3%;
-    
+.flexy li {
+  width: 33.3%;
 }
 
 p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
-.hobbies p {
-    width: 250px;
-    color:gray;
+.flexy p {
+  width: 250px;
+  color: gray;
 }
 
-.school, .exp{
-    line-height: 1.5;
+.school,
+.exp {
+  line-height: 1.5;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
 }
